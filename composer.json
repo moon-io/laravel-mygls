@@ -37,9 +37,9 @@
     },
     "repositories":  {
         "github.com/moon-io/mygls-sdk": {
-			"type": "vcs",
-			"url": "https://github.com/moon-io/mygls-sdk"
-		},
+		"type": "vcs",
+		"url": "https://github.com/moon-io/mygls-sdk"
+	}
     },
     "autoload": {
         "psr-4": {
