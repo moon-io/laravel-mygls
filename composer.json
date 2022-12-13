@@ -28,12 +28,18 @@
         "php": ">=7.2",
         "ext-json": "*",
         "illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0",
-        "webapix/mygls-sdk": "^1.0.0"
+        "webapix/mygls-sdk": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "^1.3.3",
         "orchestra/testbench": "^5.0|^6.0|^7.0",
         "phpunit/phpunit": "~6.0 || ^7.5.15 || 8.5.22 || ^9.3.3 || ^9.5.10"
+    },
+    "repositories":  {
+        "github.com/moon-io/mygls-sdk": {
+			"type": "vcs",
+			"url": "https://github.com/moon-io/mygls-sdk"
+		},
     },
     "autoload": {
         "psr-4": {
